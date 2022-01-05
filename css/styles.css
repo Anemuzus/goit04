@@ -6,6 +6,7 @@
   --benefits: #757575;
   --zaholovokh2: #212121;
   --bcg-comand-and-button-filter: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -258,6 +259,7 @@ a {
   line-height: 1.18;
   color: var(--benefits);
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 .master-bottom {
   background-color: #fff;
@@ -281,6 +283,41 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+.master-social-list {
+  display: flex;
+  justify-content: center;
+}
+.master-social-item + .master-social-item {
+  margin-left: 10px;
+}
+.master-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--bgc-text-hero);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.master-social-link:hover,
+.master-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.master-social-link:hover .master-social-icon,
+.master-social-link:focus .master-social-icon {
+  fill: var(--bgc-text-hero);
+}
+
+.master-social-icon {
+  fill: var(--icon-color);
+}
+/* .master-social-icon:hover,
+.master-social-icon:focus {
+  fill: var(--bgc-text-hero);
+} */
+
 /* ----------------------------foter-------------- */
 
 .footer-list {
