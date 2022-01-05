@@ -156,10 +156,20 @@ a {
   padding-bottom: 200px;
   margin-top: 0;
   max-width: 1600px;
+  height: 600px;
   margin-right: auto;
   margin-left: auto;
   background-color: var(--hero-bgc);
   text-align: center;
+}
+.overlay {
+  background-image: linear-gradient(
+    linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4))
+  );
+  /* background-image: url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
 }
 .title-hero {
   font-weight: 900;
