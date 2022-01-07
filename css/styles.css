@@ -317,7 +317,31 @@ a {
 .master-social-icon:focus {
   fill: var(--bgc-text-hero);
 } */
-
+/* ---------------------------------------regular-client-------------------- */
+.regular-client-list {
+  display: flex;
+  justify-content: space-between;
+}
+.regular-client-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--icon-color);
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+}
+.regular-client-link:focus,
+.regular-client-link:hover {
+  border-color: var(--accent-color);
+}
+.regular-client-icon {
+  fill: var(--icon-color);
+}
+.regular-client-icon:hover {
+  fill: var(--accent-color);
+}
 /* ----------------------------foter-------------- */
 
 .footer-list {
@@ -363,6 +387,29 @@ a {
 }
 .transparent:hover {
   color: var(--bgc-text-hero);
+}
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+}
+.footer-icon {
+  margin-left: 70px;
+}
+.footer-icon-text {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.color-icon-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.colr-icn-img-ftr {
+  fill: var(--bgc-text-hero);
 }
 /* /------------------------------------PORTFOLIO-------------------------- */
 .active-button-portfolio {
