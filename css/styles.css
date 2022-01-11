@@ -262,6 +262,7 @@ a {
 
 .section-comand {
   background-color: var(--bcg-comand-and-button-filter);
+  padding-top: 94px;
 }
 
 .name-master {
